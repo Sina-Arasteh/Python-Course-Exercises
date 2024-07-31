@@ -13,6 +13,14 @@ def list_check(a):
 def remove_every_other(a):
     return [i for i in a if a.index(i) % 2 == 0]
 
+def vowel_count(a):
+    dic = {}
+    for i in a:
+        if i in "aeiou":
+            dic[i] = a.count(i)
+    return dic
+
+
 #print(reverse_string("Hello World!!!"))
 #print(reverse_string(54))
 
@@ -20,6 +28,6 @@ def remove_every_other(a):
 #print(list_check([1, True, [], [1], [2, 3]]))
 #print(list_check([[], [1], [2, 3]]))
 
-print(remove_every_other([1,2,3,4,5]))
-print(remove_every_other([5,1,2,4,1]))
-print(remove_every_other([1]))
+#print(remove_every_other([1,2,3,4,5]))
+#print(remove_every_other([5,1,2,4,1]))
+#print(remove_every_other([1]))
