@@ -11,8 +11,8 @@ def list_check(a):
 
 
 
-print(reverse_string("Hello World!!!"))
-print(reverse_string(54))
+#print(reverse_string("Hello World!!!"))
+#print(reverse_string(54))
 
 print(list_check([[],[1],[2,3], (1,2)]))
 print(list_check([1, True, [],[1],[2,3]]))
