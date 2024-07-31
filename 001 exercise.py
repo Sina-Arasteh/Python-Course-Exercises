@@ -31,3 +31,7 @@ def vowel_count(a):
 #print(remove_every_other([1,2,3,4,5]))
 #print(remove_every_other([5,1,2,4,1]))
 #print(remove_every_other([1]))
+
+vowel_count('awesome')
+vowel_count('Elie')
+vowel_count('Colt')
