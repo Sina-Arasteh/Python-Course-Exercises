@@ -20,4 +20,6 @@ def remove_every_other(a):
 #print(list_check([1, True, [], [1], [2, 3]]))
 #print(list_check([[], [1], [2, 3]]))
 
-
+print(remove_every_other([1,2,3,4,5]))
+print(remove_every_other([5,1,2,4,1]))
+print(remove_every_other([1]))
