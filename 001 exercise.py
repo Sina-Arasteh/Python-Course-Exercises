@@ -14,10 +14,11 @@ def remove_every_other(a):
     return [i for i in a if a.index(i) % 2 == 0]
 
 def vowel_count(a):
+    b = a.lower()
     dic = {}
-    for i in a:
+    for i in b:
         if i in "aeiou":
-            dic[i] = a.count(i)
+            dic[i] = b.count(i)
     return dic
 
 
