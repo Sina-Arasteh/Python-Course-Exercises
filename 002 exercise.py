@@ -5,7 +5,17 @@ def titleize(a):
 def find_factors(a):
     return list(filter(lambda i: a % i == 0, range(1, a+1)))
 
-def includes():
+def includes(a, b, c=0):
+    if type(a) != dict:
+        d = a[c:]
+        return b in d
+    else:
+        return b in a.values()
+
+
+
+
+
 
 
 
