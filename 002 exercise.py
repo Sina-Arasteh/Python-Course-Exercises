@@ -21,7 +21,10 @@ def truncate(a, n):
     elif n == 3:
         return "..."
     else:
-        return a[:n-4] + "..."
+        if n >= len(a)-1:
+            return a[:n-4]
+        else:
+            return a[:n-4] + "..."
 
 
 
@@ -48,3 +51,5 @@ def truncate(a, n):
 #print(repeat('*', 3))
 #print(repeat('abc', 2))
 #print(repeat('abc', 0))
+
+#The testing codes of truncate function:
