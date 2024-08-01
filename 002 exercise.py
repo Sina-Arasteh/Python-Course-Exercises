@@ -5,6 +5,9 @@ def titleize(a):
 def find_factors(a):
     return list(filter(lambda i: a % i == 0, range(1, a+1)))
 
+def includes():
+
+
 
 #titleize's testing codes:
 #print(titleize('this is awesome'))
