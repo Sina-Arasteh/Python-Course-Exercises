@@ -53,3 +53,13 @@ def truncate(a, n):
 #print(repeat('abc', 0))
 
 #The testing codes of truncate function:
+#print(truncate("Super cool", 2))
+#print(truncate("Super cool", 1))
+#print(truncate("Super cool", 0))
+print(truncate("Hello World", 6))
+print(truncate("Problem solving is the best!", 10))
+print(truncate("Another test", 12))
+print(truncate("Woah", 4))
+print(truncate("Woah", 3))
+print(truncate("Yo",100))
+print(truncate("Holy guacamole!", 152))
