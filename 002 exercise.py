@@ -37,6 +37,6 @@ def repeat(a, b):
 #print(includes('abcd', 'e'))
 
 #The testing codes of repeat function:
-print(repeat('*', 3))
-print(repeat('abc', 2))
-print(repeat('abc', 0))
+#print(repeat('*', 3))
+#print(repeat('abc', 2))
+#print(repeat('abc', 0))
