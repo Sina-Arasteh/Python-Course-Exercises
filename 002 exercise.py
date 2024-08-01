@@ -5,5 +5,5 @@ def titleize(a):
 
 
 
-print(titleize('this is awesome'))
-print(titleize('oNLy cAPITALIZe fIRSt'))
+#print(titleize('this is awesome'))
+#print(titleize('oNLy cAPITALIZe fIRSt'))
