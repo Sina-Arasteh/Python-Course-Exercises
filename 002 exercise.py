@@ -3,7 +3,7 @@ def titleize(a):
     return " ".join(c)
 
 def find_factors(a):
-    return lambda i: i <= a; a % i == 0
+    return list(filter(lambda i: a % i == 0, range(1, a+1)))
 
 
 
