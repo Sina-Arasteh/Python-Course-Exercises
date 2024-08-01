@@ -16,18 +16,18 @@ def includes(a, b, c=0):
 
 
 
-#Testing codes of titleize:
+#The testing codes of titleize:
 #print(titleize('this is awesome'))
 #print(titleize('oNLy cAPITALIZe fIRSt'))
 
-#Testing codes of find_factors: 
+#The testing codes of find_factors: 
 #print(find_factors(10))
 #print(find_factors(11))
 #print(find_factors(111))
 #print(find_factors(321421))
 #print(find_factors(412146))
 
-#Testing codes of includes:
+#The testing codes of includes:
 #print(includes([1, 2, 3], 1))
 #print(includes([1, 2, 3], 1, 2))
 #print(includes({ 'a': 1, 'b': 2 }, 1)) 
