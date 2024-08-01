@@ -12,7 +12,8 @@ def includes(a, b, c=0):
     else:
         return b in a.values()
 
-
+def repeat(a, b):
+    return a * b
 
 
 
