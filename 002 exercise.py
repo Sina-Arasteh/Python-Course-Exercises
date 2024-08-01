@@ -18,13 +18,11 @@ def repeat(a, b):
 def truncate(a, n):
     if n < 3:
         raise ValueError("Truncation must be at least 3 characters.")
-    elif n == 3:
-        return "..."
     else:
-        if n >= len(a)-1:
-            return a[:n-4]
+        if n > len(a):
+            return a[:n-3]
         else:
-            return a[:n-4] + "..."
+            return a[:n-3] + "..."
 
 
 
