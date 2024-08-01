@@ -15,6 +15,14 @@ def includes(a, b, c=0):
 def repeat(a, b):
     return a * b
 
+def truncate(a, n):
+    if n < 3:
+        raise ValueError("Truncation must be at least 3 characters.")
+    elif n == 3:
+        return "..."
+    else:
+        return a[:n-4] + "..."
+
 
 
 #The testing codes of titleize function:
