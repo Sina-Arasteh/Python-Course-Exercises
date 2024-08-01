@@ -28,9 +28,9 @@ def includes(a, b, c=0):
 #print(find_factors(412146))
 
 #Testing codes of includes:
-print(includes([1, 2, 3], 1))
-print(includes([1, 2, 3], 1, 2))
-print(includes({ 'a': 1, 'b': 2 }, 1)) 
-print(includes({ 'a': 1, 'b': 2 }, 'a'))
-print(includes('abcd', 'b'))
-print(includes('abcd', 'e'))
+#print(includes([1, 2, 3], 1))
+#print(includes([1, 2, 3], 1, 2))
+#print(includes({ 'a': 1, 'b': 2 }, 1)) 
+#print(includes({ 'a': 1, 'b': 2 }, 'a'))
+#print(includes('abcd', 'b'))
+#print(includes('abcd', 'e'))
