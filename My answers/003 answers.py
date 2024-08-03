@@ -23,9 +23,9 @@ def range_in_list(lst, start=0, end=None):
 #print(two_list_dictionary(['x', 'y', 'z']  , [1,2])) # {'x': 1, 'y': 2, 'z': None}
 
 #The testing codes of the "range_in_list" function:
-print(range_in_list([1,2,3,4],0,2)) #  6
-print(range_in_list([1,2,3,4],0,3)) # 10
-print(range_in_list([1,2,3,4],1)) #  9
-print(range_in_list([1,2,3,4])) # 10
-print(range_in_list([1,2,3,4],0,100)) # 10
-print(range_in_list([],0,1)) # 0
+#print(range_in_list([1,2,3,4],0,2)) #  6
+#print(range_in_list([1,2,3,4],0,3)) # 10
+#print(range_in_list([1,2,3,4],1)) #  9
+#print(range_in_list([1,2,3,4])) # 10
+#print(range_in_list([1,2,3,4],0,100)) # 10
+#print(range_in_list([],0,1)) # 0
