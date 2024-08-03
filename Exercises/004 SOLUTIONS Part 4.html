@@ -1,0 +1,23 @@
+<h4>Solutions Part 4</h4><p><strong>sum_up_diagonals</strong></p><pre class="prettyprint linenums">def sum_up_diagonals(arr):
+    total = 0
+    
+    for i,val in enumerate(arr):
+        total += arr[i][i]
+        total += arr[i][-1-i]
+    return total</pre><p><strong>min_max_key_in_dictionary</strong></p><pre class="prettyprint linenums">def min_max_key_in_dictionary(d):
+    keys = d.keys()
+    return [min(keys), max(keys)]</pre><p><strong>find_greater_numbers</strong></p><pre class="prettyprint linenums">def find_greater_numbers(arr):
+    count = 0
+    i = 0
+    j = 1
+    while i &lt; len(arr):
+        while j &lt; len(arr):
+            if arr[j] &gt; arr[i]:
+                count += 1
+            j+=1
+        j = i+1
+        i+=1
+    return count;</pre><p><strong>two_oldest</strong></p><pre class="prettyprint linenums">def two_oldest_ages(ages):
+    return sorted(ages)[-2:]</pre><p><strong>is_odd_string</strong></p><pre class="prettyprint linenums">def is_odd_string(string):
+    total = sum((ord(c) - 96) for c in string.lower()) or 0
+    return total % 2 == 1</pre><p><br></p>

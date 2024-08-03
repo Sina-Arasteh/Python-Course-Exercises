@@ -1,0 +1,10 @@
+'''
+reverse_vowels("Hello!") # "Holle!" 
+reverse_vowels("Tomatoes") # "Temotaos" 
+reverse_vowels("Reverse Vowels In A String") # "RivArsI Vewols en e Streng"
+reverse_vowels("aeiou") # "uoiea"
+reverse_vowels("why try, shy fly?") # "why try, shy fly?"
+'''
+
+def reverse_vowels():
+    pass
