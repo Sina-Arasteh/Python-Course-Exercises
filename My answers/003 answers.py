@@ -11,8 +11,10 @@ def two_list_dictionary(list1, list2):
 
 def range_in_list(lst, start=0, end=None):
     """This function accepts a list and start and end indices, and returns the sum of the values between (and including) the start and end index."""
-    return sum(lst[start, end])
-
+    if end != None:
+        return sum(lst[start:end+1])
+    else:
+        return sum(lst[start:])
 
 
 #The testing codes of the "two_list_dictionary" function:
