@@ -1,0 +1,1 @@
+This is a repo for "The modern python3 bootcamp" course's exercises plus my answers to those exercises.
