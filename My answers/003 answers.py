@@ -1,4 +1,5 @@
 def two_list_dictionary(list1, list2):
+    """This function accepts two lists of varying lengths. The first list consists of keys and the second one consists of values. This function returns a dictionary created from the keys and values."""
     if len(list1) == len(list2):
         return {list1[i]: list2[i] for i in range(len(list1))}
     elif len(list1) > len(list2):
