@@ -23,7 +23,7 @@ def two_oldest_ages(list):
     return [max(list), oldest]
 
 def is_odd_string(string):
-    alphabet = " abcdefghijklmnopqrstubwxyz"
+    alphabet = " abcdefghijklmnopqrstuvwxyz"
     string.lower()
     a = 0
     for char in string:
