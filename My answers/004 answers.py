@@ -30,6 +30,8 @@ def is_odd_string(string):
         a += alphabet.index(char)
     return a % 2 != 0
 
+
+
 #The testing codes of the "sum_up_diagonals" function:
 #list1 = [
 #  [ 1, 2 ],
@@ -73,3 +75,10 @@ def is_odd_string(string):
 #print(two_oldest_ages( [1, 2, 10, 8] )) # [8, 10]
 #print(two_oldest_ages( [6,1,9,10,4] )) # [9,10]
 #print(two_oldest_ages( [4,25,3,20,19,5] )) # [20,25]
+
+#The testing codes of the "is_odd_string" function:
+print(is_odd_string('a')) # True
+print(is_odd_string('aaaa')) # False
+print(is_odd_string('amazing')) # True
+print(is_odd_string('veryfun')) # True
+print(is_odd_string('veryfunny')) # False
