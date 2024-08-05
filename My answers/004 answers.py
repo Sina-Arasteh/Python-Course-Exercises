@@ -52,7 +52,7 @@ def find_greater_numbers(list):
 #print(min_max_key_in_dictionary({1: "Elie", 4:"Matt", 2: "Tim"})) # [1,4]
 
 #The testing codes of the "find_greater_numbers" function:
-print(find_greater_numbers([1,2,3])) # 3 
-print(find_greater_numbers([6,1,2,7])) # 4
-print(find_greater_numbers([5,4,3,2,1])) # 0
-print(find_greater_numbers([])) # 0
+#print(find_greater_numbers([1,2,3])) # 3 
+#print(find_greater_numbers([6,1,2,7])) # 4
+#print(find_greater_numbers([5,4,3,2,1])) # 0
+#print(find_greater_numbers([])) # 0
