@@ -12,10 +12,10 @@ def valid_parentheses(paren_string):
 
 
 #The testing codes of the "valid_parentheses" function:
-print(valid_parentheses("()")) # True 
-print(valid_parentheses(")(()))")) # False 
-print(valid_parentheses("(")) # False 
-print(valid_parentheses("(())((()())())")) # True 
-print(valid_parentheses('))((')) # False
-print(valid_parentheses('())(')) # False
-print(valid_parentheses('()()()()())()(')) # False
+#print(valid_parentheses("()")) # True 
+#print(valid_parentheses(")(()))")) # False 
+#print(valid_parentheses("(")) # False 
+#print(valid_parentheses("(())((()())())")) # True 
+#print(valid_parentheses('))((')) # False
+#print(valid_parentheses('())(')) # False
+#print(valid_parentheses('()()()()())()(')) # False
