@@ -25,6 +25,16 @@ def nth(list, num):
     """This function accepts a list and a number and returns the element at whatever index is the in the list."""
     return list[num]
 
+def find_the_duplicate(list):
+    """This function accepts a list of numbers containing a single duplicate. The function returns the number which is a duplicate or None if there are no duplicates."""
+    for i in list:
+        a = list.count(i)
+        if a > 1:
+            return i
+    return None
+
+
+
 #The testing codes of the "two_list_dictionary" function:
 #print(two_list_dictionary(['a', 'b', 'c', 'd'], [1, 2, 3])) # {'a': 1, 'b': 2, 'c': 3, 'd': None}
 #print(two_list_dictionary(['a', 'b', 'c']  , [1, 2, 3, 4])) # {'a': 1, 'b': 2, 'c': 3}
