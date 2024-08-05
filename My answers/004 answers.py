@@ -10,10 +10,10 @@ def min_max_key_in_dictionary(dic):
     return a
 
 def find_greater_numbers(list):
+    a = 0
     for i in list:
-        a = 0
         for g in list[list.index(i):]:
-            if i > g :
+            if i < g :
                 a += 1
     return a
 
