@@ -17,6 +17,9 @@ def range_in_list(lst, start=0, end=None):
     else:
         return sum(lst[start:])
 
+def same_frequency(num1, num2):
+    return len(str(num1)) == len(str(num2))
+
 
 #The testing codes of the "two_list_dictionary" function:
 #print(two_list_dictionary(['a', 'b', 'c', 'd'], [1, 2, 3])) # {'a': 1, 'b': 2, 'c': 3, 'd': None}
