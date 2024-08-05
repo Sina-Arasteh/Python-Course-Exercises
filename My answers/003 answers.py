@@ -33,3 +33,8 @@ def same_frequency(num1, num2):
 #print(range_in_list([1,2,3,4])) # 10
 #print(range_in_list([1,2,3,4],0,100)) # 10
 #print(range_in_list([],0,1)) # 0
+
+#The testing codes of the "same_frequency" function:
+same_frequency(551122,221515) # True
+same_frequency(321142,3212215) # False
+same_frequency(1212, 2211) # True
