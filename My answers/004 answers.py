@@ -3,6 +3,13 @@ def sum_up_diagonals(list):
     b = sum([list[i][-i-1] for i in range(len(list))])
     return a + b
 
+def min_max_key_in_dictionary(dic):
+    a = []
+    a.append(min(dic))
+    a.append(max(dic))
+    return a
+
+
 
 
 #The testing codes of the "sum_up_diagonals" function:
