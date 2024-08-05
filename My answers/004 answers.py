@@ -17,6 +17,12 @@ def find_greater_numbers(list):
                 a += 1
     return a
 
+def two_oldest_ages(list):
+    oldest = max(list)
+    list.remove(oldest)
+    return [max(list), oldest]
+
+
 
 #The testing codes of the "sum_up_diagonals" function:
 #list1 = [
