@@ -9,7 +9,13 @@ def min_max_key_in_dictionary(dic):
     a.append(max(dic))
     return a
 
-
+def find_greater_numbers(list):
+    for i in list:
+        a = 0
+        for g in list[list.index(i):]:
+            if i > g :
+                a += 1
+    return a
 
 
 #The testing codes of the "sum_up_diagonals" function:
