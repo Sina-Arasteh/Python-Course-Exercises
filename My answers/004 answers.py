@@ -77,8 +77,8 @@ def is_odd_string(string):
 #print(two_oldest_ages( [4,25,3,20,19,5] )) # [20,25]
 
 #The testing codes of the "is_odd_string" function:
-print(is_odd_string('a')) # True
-print(is_odd_string('aaaa')) # False
-print(is_odd_string('amazing')) # True
-print(is_odd_string('veryfun')) # True
-print(is_odd_string('veryfunny')) # False
+#print(is_odd_string('a')) # True
+#print(is_odd_string('aaaa')) # False
+#print(is_odd_string('amazing')) # True
+#print(is_odd_string('veryfun')) # True
+#print(is_odd_string('veryfunny')) # False
