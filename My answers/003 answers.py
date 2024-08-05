@@ -62,6 +62,6 @@ def find_the_duplicate(list):
 #print(nth(['a', 'b', 'c', 'd'], 3))  # 'd'
 
 #The testing codes of the "find_the_duplicate" function:
-print(find_the_duplicate([1,2,1,4,3,12])) # 1
-print(find_the_duplicate([6,1,9,5,3,4,9])) # 9
-print(find_the_duplicate([2,1,3,4])) # None
+#print(find_the_duplicate([1,2,1,4,3,12])) # 1
+#print(find_the_duplicate([6,1,9,5,3,4,9])) # 9
+#print(find_the_duplicate([2,1,3,4])) # None
