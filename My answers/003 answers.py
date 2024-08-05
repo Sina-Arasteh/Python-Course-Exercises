@@ -18,8 +18,12 @@ def range_in_list(lst, start=0, end=None):
         return sum(lst[start:])
 
 def same_frequency(num1, num2):
+    """This function accepts two numbers and returns True if they contain the same frequency of digits. Otherwise, it returns False."""
     return len(str(num1)) == len(str(num2))
 
+def nth(list, num):
+    """This function accepts a list and a number and returns the element at whatever index is the in the list."""
+    return list[num]
 
 #The testing codes of the "two_list_dictionary" function:
 #print(two_list_dictionary(['a', 'b', 'c', 'd'], [1, 2, 3])) # {'a': 1, 'b': 2, 'c': 3, 'd': None}
