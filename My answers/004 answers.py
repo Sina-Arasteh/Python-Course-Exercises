@@ -40,3 +40,7 @@ def min_max_key_in_dictionary(dic):
 #  [ 13, 14, 15, 16 ]
 #]
 #print(sum_up_diagonals(list4)) # 68
+
+#The testing codes of the "min_max_key_in_dictionary" function:
+print(min_max_key_in_dictionary({2:'a', 7:'b', 1:'c',10:'d',4:'e'})) # [1,10]
+print(min_max_key_in_dictionary({1: "Elie", 4:"Matt", 2: "Tim"})) # [1,4]
