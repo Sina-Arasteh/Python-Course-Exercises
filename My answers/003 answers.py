@@ -42,3 +42,11 @@ def nth(list, num):
 #print(same_frequency(551122,221515)) # True
 #print(same_frequency(321142,3212215)) # False
 #print(same_frequency(1212, 2211)) # True
+
+#The testing codes of the "nth" function:
+print(nth(['a', 'b', 'c', 'd'], 1))  # 'b' 
+print(nth(['a', 'b', 'c', 'd'], -2)) #  'c'
+print(nth(['a', 'b', 'c', 'd'], 0))  # 'a'
+print(nth(['a', 'b', 'c', 'd'], -4)) #  'a'
+print(nth(['a', 'b', 'c', 'd'], -1)) #  'd'
+print(nth(['a', 'b', 'c', 'd'], 3))  # 'd'
