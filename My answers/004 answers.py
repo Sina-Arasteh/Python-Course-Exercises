@@ -62,3 +62,8 @@ def two_oldest_ages(list):
 #print(find_greater_numbers([6,1,2,7])) # 4
 #print(find_greater_numbers([5,4,3,2,1])) # 0
 #print(find_greater_numbers([])) # 0
+
+#The testing codes of the "two_oldest_ages" function:
+print(two_oldest_ages( [1, 2, 10, 8] )) # [8, 10]
+print(two_oldest_ages( [6,1,9,10,4] )) # [9,10]
+print(two_oldest_ages( [4,25,3,20,19,5] )) # [20,25]
