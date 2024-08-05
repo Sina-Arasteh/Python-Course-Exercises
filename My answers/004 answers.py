@@ -22,7 +22,13 @@ def two_oldest_ages(list):
     list.remove(oldest)
     return [max(list), oldest]
 
-
+def is_odd_string(string):
+    alphabet = " abcdefghijklmnopqrstubwxyz"
+    string.lower()
+    a = 0
+    for char in string:
+        a += alphabet.index(char)
+    return a % 2 != 0
 
 #The testing codes of the "sum_up_diagonals" function:
 #list1 = [
