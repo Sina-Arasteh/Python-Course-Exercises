@@ -28,3 +28,10 @@ def reverse_vowels(string):
 #print(valid_parentheses('))((')) # False
 #print(valid_parentheses('())(')) # False
 #print(valid_parentheses('()()()()())()(')) # False
+
+#The testing codes of the "reverse_vowels" function:
+print(reverse_vowels("Hello!")) # "Holle!" 
+print(reverse_vowels("Tomatoes")) # "Temotaos" 
+print(reverse_vowels("Reverse Vowels In A String")) # "RivArsI Vewols en e Streng"
+print(reverse_vowels("aeiou")) # "uoiea"
+print(reverse_vowels("why try, shy fly?")) # "why try, shy fly?"
