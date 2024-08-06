@@ -76,3 +76,12 @@ def running_average():
 
 #The testing code of the "mode" function:
 #print(mode([2,4,1,2,3,3,4,4,5,4,4,6,4,6,7,4])) # 4
+
+#The testing codes of the "running_average" function:
+rAvg = running_average()
+rAvg(10) # 10.0
+rAvg(11) # 10.5
+rAvg(12) # 11
+rAvg2 = running_average()
+rAvg2(1) # 1
+rAvg2(3) # 2
