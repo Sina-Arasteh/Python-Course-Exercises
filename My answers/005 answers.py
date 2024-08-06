@@ -63,3 +63,6 @@ def mode(list_numbers):
 #print(three_odd_numbers([0,-2,4,1,9,12,4,1,0])) # True
 #print(three_odd_numbers([5,2,1])) # False
 #print(three_odd_numbers([1,2,3,3,2])) # False
+
+#The testing code of the "mode" function:
+print(mode([2,4,1,2,3,3,4,4,5,4,4,6,4,6,7,4])) # 4
