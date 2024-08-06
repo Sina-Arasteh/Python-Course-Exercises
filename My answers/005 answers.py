@@ -43,7 +43,9 @@ def running_average():
     sum_nums = 0
     count = 0
     def average(num):
+        nonlocal count
         count += 1
+        nonlocal sum_nums
         sum_nums += num
         return round(sum_nums/count, 2)
     return average
@@ -79,9 +81,9 @@ def running_average():
 
 #The testing codes of the "running_average" function:
 rAvg = running_average()
-rAvg(10) # 10.0
-rAvg(11) # 10.5
-rAvg(12) # 11
+print(rAvg(10)) # 10.0
+print(rAvg(11)) # 10.5
+print(rAvg(12)) # 11
 rAvg2 = running_average()
-rAvg2(1) # 1
-rAvg2(3) # 2
+print(rAvg2(1)) # 1
+print(rAvg2(3)) # 2
