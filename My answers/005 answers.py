@@ -46,3 +46,9 @@ def three_odd_numbers(list_numbers):
 #print(reverse_vowels("Reverse Vowels In A String")) # "RivArsI Vewols en e Streng"
 #print(reverse_vowels("aeiou")) # "uoiea"
 #print(reverse_vowels("why try, shy fly?")) # "why try, shy fly?"
+
+#The testing codes of the "three_odd_numbers" function:
+print(three_odd_numbers([1,2,3,4,5])) # True
+print(three_odd_numbers([0,-2,4,1,9,12,4,1,0])) # True
+print(three_odd_numbers([5,2,1])) # False
+print(three_odd_numbers([1,2,3,3,2])) # False
