@@ -80,10 +80,10 @@ def running_average():
 #print(mode([2,4,1,2,3,3,4,4,5,4,4,6,4,6,7,4])) # 4
 
 #The testing codes of the "running_average" function:
-rAvg = running_average()
-print(rAvg(10)) # 10.0
-print(rAvg(11)) # 10.5
-print(rAvg(12)) # 11
-rAvg2 = running_average()
-print(rAvg2(1)) # 1
-print(rAvg2(3)) # 2
+#rAvg = running_average()
+#print(rAvg(10)) # 10.0
+#print(rAvg(11)) # 10.5
+#print(rAvg(12)) # 11
+#rAvg2 = running_average()
+#print(rAvg2(1)) # 1
+#print(rAvg2(3)) # 2
