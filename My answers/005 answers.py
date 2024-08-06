@@ -27,7 +27,18 @@ def three_odd_numbers(list_numbers):
         if (list_numbers[num]+list_numbers[num+1]+list_numbers[num+2]) % 2 != 0:
             return True
     return False
-#
+
+def mode(list_numbers):
+    set_numers = set(list_numbers)
+    b = 0
+    most_frequent = 0
+    for i in set_numers:
+        a = list_numbers.count(i)
+        if a > b:
+            b = a
+            most_frequent = i
+    return most_frequent
+    
 
 
 
