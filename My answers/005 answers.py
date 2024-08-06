@@ -24,7 +24,7 @@ def reverse_vowels(string):
 
 def three_odd_numbers(list_numbers):
     for num in range(len(list_numbers)-2):
-        if list_numbers[num]+list_numbers[num+1]+list_numbers[num+2] % 2 != 0:
+        if (list_numbers[num]+list_numbers[num+1]+list_numbers[num+2]) % 2 != 0:
             return True
     return False
 
