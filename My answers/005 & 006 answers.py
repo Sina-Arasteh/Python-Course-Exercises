@@ -52,8 +52,6 @@ def running_average():
 
 
 
-
-
 #The testing codes of the "valid_parentheses" function:
 #print(valid_parentheses("()")) # True 
 #print(valid_parentheses(")(()))")) # False 
