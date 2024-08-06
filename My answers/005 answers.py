@@ -39,6 +39,16 @@ def mode(list_numbers):
             most_frequent = i
     return most_frequent
     
+def running_average():
+    sum_nums = 0
+    count = 0
+    def average(num):
+        count += 1
+        sum_nums += num
+        return round(sum_nums/count, 2)
+    return average
+
+
 
 
 
