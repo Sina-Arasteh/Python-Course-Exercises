@@ -11,13 +11,16 @@ def valid_parentheses(paren_string):
 
 def reverse_vowels(string):
     vowels = "aAeEiIoOuU"
-    list_index = []
-    for char in string:
-        if char in vowels:
-            list_index.append(string.index(char))
-    for i in range(1, len()):
-        string.replace(string[list_index[i]], string[list_index[-i-1]])
-    return string
+    a = list(string)
+    i , j = 0, len(a)-1
+    while i < j:
+        if a[i] not in vowels:
+            i += 1
+        elif a[j] not in vowels:
+            j -= 1
+        else:
+            a[i], a[j] = a[j], a[i]
+    return "".join(a)
 
 
 #The testing codes of the "valid_parentheses" function:
