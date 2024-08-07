@@ -15,14 +15,18 @@ def once(fn):
     return inner
 
 def next_prime():
-    i = 2
+    num = 2
+    value = 2
     while True:
-        for a in range(2, i):
-            if i % a == 0:
-                i += 1
+        while value < num:
+            if num % value == 0:
+                num += 1
+                value = 2
                 continue
-        yield i
-        i += 1
+            value +=1
+        yield num
+        num += 1
+        value = 2
 
 
 
@@ -44,4 +48,4 @@ def next_prime():
 
 #The testing codes of the "next_prime" function:
 primes = next_prime()
-[next(primes) for i in range(25)] # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+print([next(primes) for i in range(25)]) # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
