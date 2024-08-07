@@ -48,9 +48,9 @@ def vowel_count(a):
 #print(list_check([[], [1], [2,3]])) # True
 
 #The testing codes of the "remove_every_other" function:
-#print(remove_every_other([1, 2, 3, 4, 5])) # [1, 3, 5] 
+#print(remove_every_other([1, 2, 3, 4, 5])) # [1, 3, 5]
 #print(remove_every_other([5, 1, 2, 4, 1])) # [5, 2, 1]
-#print(remove_every_other([1])) # [1] 
+#print(remove_every_other([1])) # [1]
 
 #The testing codes of the "sum_pairs" function:
 #print(sum_pairs([4,2,10,5,1], 6)) # [4,2]
