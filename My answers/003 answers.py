@@ -37,31 +37,31 @@ def find_the_duplicate(list):
 
 #The testing codes of the "two_list_dictionary" function:
 #print(two_list_dictionary(['a', 'b', 'c', 'd'], [1, 2, 3])) # {'a': 1, 'b': 2, 'c': 3, 'd': None}
-#print(two_list_dictionary(['a', 'b', 'c']  , [1, 2, 3, 4])) # {'a': 1, 'b': 2, 'c': 3}
-#print(two_list_dictionary(['x', 'y', 'z']  , [1,2])) # {'x': 1, 'y': 2, 'z': None}
+#print(two_list_dictionary(['a', 'b', 'c'], [1, 2, 3, 4])) # {'a': 1, 'b': 2, 'c': 3}
+#print(two_list_dictionary(['x', 'y', 'z'], [1, 2])) # {'x': 1, 'y': 2, 'z': None}
 
 #The testing codes of the "range_in_list" function:
-#print(range_in_list([1,2,3,4],0,2)) #  6
-#print(range_in_list([1,2,3,4],0,3)) # 10
-#print(range_in_list([1,2,3,4],1)) #  9
-#print(range_in_list([1,2,3,4])) # 10
-#print(range_in_list([1,2,3,4],0,100)) # 10
-#print(range_in_list([],0,1)) # 0
+#print(range_in_list([1, 2, 3, 4], 0, 2)) # 6
+#print(range_in_list([1, 2, 3, 4], 0, 3)) # 10
+#print(range_in_list([1, 2, 3, 4], 1)) # 9
+#print(range_in_list([1, 2, 3, 4])) # 10
+#print(range_in_list([1, 2, 3, 4], 0, 100)) # 10
+#print(range_in_list([], 0, 1)) # 0
 
 #The testing codes of the "same_frequency" function:
-#print(same_frequency(551122,221515)) # True
-#print(same_frequency(321142,3212215)) # False
+#print(same_frequency(551122, 221515)) # True
+#print(same_frequency(321142, 3212215)) # False
 #print(same_frequency(1212, 2211)) # True
 
 #The testing codes of the "nth" function:
-#print(nth(['a', 'b', 'c', 'd'], 1))  # 'b' 
-#print(nth(['a', 'b', 'c', 'd'], -2)) #  'c'
-#print(nth(['a', 'b', 'c', 'd'], 0))  # 'a'
-#print(nth(['a', 'b', 'c', 'd'], -4)) #  'a'
-#print(nth(['a', 'b', 'c', 'd'], -1)) #  'd'
-#print(nth(['a', 'b', 'c', 'd'], 3))  # 'd'
+#print(nth(['a', 'b', 'c', 'd'], 1)) # 'b'
+#print(nth(['a', 'b', 'c', 'd'], -2)) # 'c'
+#print(nth(['a', 'b', 'c', 'd'], 0)) # 'a'
+#print(nth(['a', 'b', 'c', 'd'], -4)) # 'a'
+#print(nth(['a', 'b', 'c', 'd'], -1)) # 'd'
+#print(nth(['a', 'b', 'c', 'd'], 3)) # 'd'
 
 #The testing codes of the "find_the_duplicate" function:
-#print(find_the_duplicate([1,2,1,4,3,12])) # 1
-#print(find_the_duplicate([6,1,9,5,3,4,9])) # 9
-#print(find_the_duplicate([2,1,3,4])) # None
+#print(find_the_duplicate([1, 2, 1, 4, 3, 12])) # 1
+#print(find_the_duplicate([6, 1, 9, 5, 3, 4, 9])) # 9
+#print(find_the_duplicate([2, 1, 3, 4])) # None

@@ -39,12 +39,12 @@ def next_prime():
 #print(counter2('t')) # 1
 
 #The testing codes of the "once" function:
-#def add(a,b):
+#def add(a, b):
 #    return a+b
 #oneAddition = once(add)
-#print(oneAddition(2,2)) # 4
-#print(oneAddition(2,2)) # None
-#print(oneAddition(12,200)) # None
+#print(oneAddition(2, 2)) # 4
+#print(oneAddition(2, 2)) # None
+#print(oneAddition(12, 200)) # None
 
 #The testing codes of the "next_prime" function:
 #primes = next_prime()

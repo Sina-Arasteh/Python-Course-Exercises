@@ -43,9 +43,9 @@ def vowel_count(a):
 #print(reverse_string('Elie')) # 'eilE'
 
 #The testing codes of the "list_check" function:
-#print(list_check([[], [1], [2,3], (1,2)])) # False
-#print(list_check([1, True, [], [1], [2,3]])) # False
-#print(list_check([[], [1], [2,3]])) # True
+#print(list_check([[], [1], [2, 3], (1, 2)])) # False
+#print(list_check([1, True, [], [1], [2, 3]])) # False
+#print(list_check([[], [1], [2, 3]])) # True
 
 #The testing codes of the "remove_every_other" function:
 #print(remove_every_other([1, 2, 3, 4, 5])) # [1, 3, 5]
@@ -53,8 +53,8 @@ def vowel_count(a):
 #print(remove_every_other([1])) # [1]
 
 #The testing codes of the "sum_pairs" function:
-#print(sum_pairs([4,2,10,5,1], 6)) # [4,2]
-#print(sum_pairs([11,20,4,2,1,5], 100)) # []
+#print(sum_pairs([4, 2, 10, 5, 1], 6)) # [4, 2]
+#print(sum_pairs([11, 20, 4, 2, 1, 5], 100)) # []
 
 #The testing codes of the "vowel_count" function:
 #print(vowel_count('awesome')) # {'a': 1, 'e': 2, 'o': 1}
