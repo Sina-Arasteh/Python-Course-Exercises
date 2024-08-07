@@ -4,9 +4,16 @@ def letter_counter(string):
     return count
 
 def once(fn):
-    def inner():
-        return fn
+    count = 0
+    def inner(a, b):
+        nonlocal count
+        if count == 0:
+            count = 1
+            return fn(a, b)
+        else:
+            return None
     return inner
+
 
 
 #The testing codes of the "letter_counter" function:
