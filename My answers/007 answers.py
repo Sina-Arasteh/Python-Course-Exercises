@@ -14,7 +14,15 @@ def once(fn):
             return None
     return inner
 
-
+def next_prime():
+    i = 2
+    while True:
+        for a in range(2, i):
+            if i % a == 0:
+                i += 1
+                continue
+        yield i
+        i += 1
 
 #The testing codes of the "letter_counter" function:
 #counter = letter_counter('Amazing')
