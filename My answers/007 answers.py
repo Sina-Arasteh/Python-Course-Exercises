@@ -24,6 +24,8 @@ def next_prime():
         yield i
         i += 1
 
+
+
 #The testing codes of the "letter_counter" function:
 #counter = letter_counter('Amazing')
 #print(counter('a')) # 2
@@ -39,3 +41,7 @@ def next_prime():
 #print(oneAddition(2,2)) # 4
 #print(oneAddition(2,2)) # None
 #print(oneAddition(12,200)) # None
+
+#The testing codes of the "next_prime" function:
+primes = next_prime()
+[next(primes) for i in range(25)] # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
