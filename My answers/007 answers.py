@@ -3,6 +3,10 @@ def letter_counter(string):
         return string.lower().count(letter)
     return count
 
+def once(fn):
+    def inner():
+        return fn
+    return inner
 
 
 #The testing codes of the "letter_counter" function:
