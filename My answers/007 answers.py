@@ -24,9 +24,10 @@ def once(fn):
 #print(counter2('i')) # 2
 #print(counter2('t')) # 1
 
-def add(a,b):
-    return a+b
-oneAddition = once(add)
-print(oneAddition(2,2)) # 4
-print(oneAddition(2,2)) # None
-print(oneAddition(12,200)) # None
+#The testing codes of the "once" function:
+#def add(a,b):
+#    return a+b
+#oneAddition = once(add)
+#print(oneAddition(2,2)) # 4
+#print(oneAddition(2,2)) # None
+#print(oneAddition(12,200)) # None
