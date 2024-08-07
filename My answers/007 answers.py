@@ -16,3 +16,10 @@ def once(fn):
 #counter2 = letter_counter('This Is Really Fun!')
 #print(counter2('i')) # 2
 #print(counter2('t')) # 1
+
+def add(a,b):
+    return a+b
+oneAddition = once(add)
+print(oneAddition(2,2)) # 4
+print(oneAddition(2,2)) # None
+print(oneAddition(12,200)) # None
