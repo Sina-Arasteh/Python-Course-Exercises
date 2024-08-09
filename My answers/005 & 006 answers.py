@@ -20,6 +20,8 @@ def reverse_vowels(string):
             j -= 1
         else:
             a[i], a[j] = a[j], a[i]
+            i += 1
+            j -= 1
     return "".join(a)
 
 def three_odd_numbers(list_numbers):
@@ -53,29 +55,29 @@ def running_average():
 
 
 #The testing codes of the "valid_parentheses" function:
-#print(valid_parentheses("()")) # True 
-#print(valid_parentheses(")(()))")) # False 
-#print(valid_parentheses("(")) # False 
-#print(valid_parentheses("(())((()())())")) # True 
+#print(valid_parentheses("()")) # True
+#print(valid_parentheses(")(()))")) # False
+#print(valid_parentheses("(")) # False
+#print(valid_parentheses("(())((()())())")) # True
 #print(valid_parentheses('))((')) # False
 #print(valid_parentheses('())(')) # False
 #print(valid_parentheses('()()()()())()(')) # False
 
 #The testing codes of the "reverse_vowels" function:
-#print(reverse_vowels("Hello!")) # "Holle!" 
-#print(reverse_vowels("Tomatoes")) # "Temotaos" 
+#print(reverse_vowels("Hello!")) # "Holle!"
+#print(reverse_vowels("Tomatoes")) # "Temotaos"
 #print(reverse_vowels("Reverse Vowels In A String")) # "RivArsI Vewols en e Streng"
 #print(reverse_vowels("aeiou")) # "uoiea"
 #print(reverse_vowels("why try, shy fly?")) # "why try, shy fly?"
 
 #The testing codes of the "three_odd_numbers" function:
-#print(three_odd_numbers([1,2,3,4,5])) # True
-#print(three_odd_numbers([0,-2,4,1,9,12,4,1,0])) # True
-#print(three_odd_numbers([5,2,1])) # False
-#print(three_odd_numbers([1,2,3,3,2])) # False
+#print(three_odd_numbers([1, 2, 3, 4, 5])) # True
+#print(three_odd_numbers([0, -2, 4, 1, 9, 12, 4, 1, 0])) # True
+#print(three_odd_numbers([5, 2, 1])) # False
+#print(three_odd_numbers([1, 2, 3, 3, 2])) # False
 
 #The testing code of the "mode" function:
-#print(mode([2,4,1,2,3,3,4,4,5,4,4,6,4,6,7,4])) # 4
+#print(mode([2, 4, 1, 2, 3, 3, 4, 4, 5, 4, 4, 6, 4, 6, 7, 4])) # 4
 
 #The testing codes of the "running_average" function:
 #rAvg = running_average()
